@@ -98,7 +98,8 @@ the AUC for each dataset to be available (TODO: point to `results/auc_summary.cs
 ## Results
 
 ROC curves vary across datasets- there may be some link to quality of data used and/or cellular composition of individual samples although clear
-patterns are difficult to define.
+patterns are difficult to define. Within the breast dataset immune cell/fibroblast frequency may exhibit differences in predictive ability but more
+research would be required to fully define this.
 
 ![ROC curves](figures/ROC_Curves_All.png)
 
