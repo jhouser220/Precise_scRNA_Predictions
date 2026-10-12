@@ -1,0 +1,38 @@
+name: precise-scrna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # TODO: set to the Python version you actually ran the notebooks with
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+
+  # Single-cell analysis
+  - scanpy
+  - anndata
+  - python-igraph   # needed for leiden clustering in scanpy
+  - leidenalg
+
+  # Notebooks
+  - jupyterlab
+  - ipykernel
+
+  # pip-only packages
+  - pip
+  - pip:
+      # PRECISE+ (only if you used it instead of / alongside PRECISE).
+      # Requires Python 3.6+, matplotlib and pandas.
+      # - precise_plus
+      #
+      # PRECISE itself lives in external/PRECISE (git submodule).
+      # If that repo provides a setup.py / pyproject.toml, you can install it with:
+      # - -e ./external/PRECISE
