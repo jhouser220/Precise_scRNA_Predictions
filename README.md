@@ -97,7 +97,7 @@ the AUC for each dataset to be available (TODO: point to `results/auc_summary.cs
 
 ## Results
 
-TODO: add a short summary and the main figure once finalized, for example:
+ROC curves vary across datasets- there may be some link to quality of data used
 
 ![ROC curves](figures/ROC_Curves_All.png)
 
