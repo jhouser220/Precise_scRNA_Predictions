@@ -97,7 +97,8 @@ the AUC for each dataset to be available (TODO: point to `results/auc_summary.cs
 
 ## Results
 
-ROC curves vary across datasets- there may be some link to quality of data used
+ROC curves vary across datasets- there may be some link to quality of data used and/or cellular composition of individual samples although clear
+patterns are difficult to define.
 
 ![ROC curves](figures/ROC_Curves_All.png)
 
